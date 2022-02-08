@@ -1,0 +1,13 @@
+table{
+    padding: 5px;
+    background-color: yellow;
+}
+tr{
+    padding: 10px;
+}
+td{
+    padding: 15px;
+}
+.main{
+    background-color: tomato;
+}

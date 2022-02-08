@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparks Foundation</title>
+
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <div class="menu">
+
+        <h1 class="heading"><a href="https://www.thesparksfoundation.com/" target="__blank"><strong><i>Welocme to The Sparks Foundation E-Banking services</i></strong></a></h1>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="https://internship.thesparksfoundation.info/" target="__blank">GRIP Inernship</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+
+    </div>
+
+    <div class="photo">
+        <img src="img_2.jpeg" alt="">
+    </div>
+
+    <div class="account">
+        <div class="options">
+            <ol>
+                <li><a href="statement.php" title="statement" target="__main">Statement</a></li>
+                <li><a href="old_beneficiaries.php" title="Your Beneficiaries" target="__main">Beneficiary</a></li>
+                <li><a href="new_beneficiaries.php" id="add" title="Add New  Beneficiary" target="__main">Add
+                        Beneficiary</a></li>
+            </ol>
+        </div>
+        <center>
+            <div id="account">
+                <table class="acc_table" border="2px">
+                    <form action="sender.php" method="post">
+                        <th>Sender Account Information</th>
+                        <tr>
+                            <td><label for="send_acc_name">Account Holder : </label></td>
+                            <td><input type="text" value="Alpha quata" readonly name="sender_name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="s_email">E-Mail : </label></td>
+                            <td><input type="email" value="xyz@gmail.com" readonly name="sender_email"></td>
+                        </tr>
+                        <!-- <tr>
+                            <td><input type="button" value="Check Balance" onclick="bal(this)"></td>
+                        </tr> -->
+
+                        <th>Reciever Account Information</th>
+                        <tr>
+                            <td><label for="rec_acc_name">Account Holder : </label></td>
+                            <td><input type="text" placeholder="eg: karry madeer" name="reciever_name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="r_email">E-Mail : </label></td>
+                            <td><input type="email" placeholder="eg: xyz@gmail.com" name="reciever_email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="r_amount">Amount : </label></td>
+                            <td><input type="text" placeholder="eg: 200000" name="sending_amount"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="Send Money"></td>
+                        </tr>
+                    </form>
+                </table>
+            </div>
+        </center>
+        
+    </div>
+    <div class="photo">
+            <img src="img_1.jpeg" alt="">
+        </div>
+    
+
+</body>
+
+</html>

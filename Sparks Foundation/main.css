@@ -1,0 +1,175 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: deepskyblue;
+}
+
+.menu {
+    width: 100%;
+    /* height: 3000px; */
+    padding: 0%;
+    margin: 0%;
+}
+
+.heading {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+
+}
+
+.nav {
+    position: fixed;
+    top: 0%;
+    background-color: greenyellow;
+    box-sizing: border-box;
+    left: 500px;
+    top: 35px;
+    padding: 0%;
+    border-radius: 10px;
+}
+
+.nav li {
+    display: inline-flex;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* background-color: black; */
+
+    border: 2px solid red;
+    border-radius: 10px;
+
+}
+
+.nav li a {
+    transition: 1s;
+    font-size: 20px;
+
+}
+
+.nav li a:hover {
+    /* font-size: 25px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+
+    transform: translateY(8px);
+
+}
+
+div .heading:hover {
+    text-transform: uppercase;
+    color: red;
+}
+
+table {
+    padding: 20px;
+}
+
+fieldset {
+    width: 450px;
+    height: 150px;
+}
+
+.account {
+    display: flex;
+    /* justify-content:space-around; */
+    justify-content: space-evenly;
+}
+
+input {
+    padding: 5px;
+}
+
+label {
+    padding: 5px;
+    padding-right: 20px
+}
+
+.options ol {
+    left: 0;
+    padding: 0%;
+    background-color: deepskyblue;
+    border-radius: 30px;
+    float: left;
+}
+
+.options ol li {
+    display: flex;
+
+
+}
+
+ol li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin: 15px;
+
+}
+
+.options ol li a {
+    color: ghostwhite;
+    padding: 10px;
+    background-color: black;
+}
+
+.options ol li a:hover {
+    transition: ease cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transform: translateX(10px);
+
+
+}
+
+.options ol li a {
+    box-sizing: content-box;
+    border: 3px solid turquoise;
+    border-radius: 30px;
+}
+
+.options ol div input {
+    padding: 10px;
+    margin-left: 115px;
+    margin-top: 20px;
+    border-radius: 30%;
+    border-style: ridge;
+    cursor: pointer;
+}
+
+.options ol div input:hover {
+    border: 3px solid red;
+}
+
+#add {
+    cursor: crosshair;
+}
+
+.photo {
+    width: 75%;
+    height: auto;
+    margin-left: 210px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+}
+
+.acc_table {
+    display: inline-flexbox;
+    margin-left: 400px;
+    color: black;
+    background-color: #fff;
+
+}
+
+th a :hover {
+    background-color: yellow;
+}

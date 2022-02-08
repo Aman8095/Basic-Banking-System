@@ -1,0 +1,32 @@
+body {
+    background-color: hotpink;
+}
+
+table {
+    padding: 5px;
+    background-color: yellow;
+}
+
+tr {
+    padding: 10px;
+}
+
+td {
+    padding: 15px;
+}
+input{
+    background-color: yellow;
+}
+input[type="text"]{
+    color: black;
+    font-size: large;
+}
+input[type="submit"]{
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+}
